@@ -1,0 +1,964 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml:2:1-67:12
+INJECTED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml:2:1-67:12
+INJECTED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml:2:1-67:12
+INJECTED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml:2:1-67:12
+MERGED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:2:1-107:12
+MERGED from [androidx.databinding:databinding-adapters:7.0.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/d92fda23248e61a7fa59f3db1d03ccc9/transformed/databinding-adapters-7.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.databinding:databinding-runtime:7.0.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/28c557a0f061fc218bc521f854721c92/transformed/databinding-runtime-7.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.databinding:viewbinding:8.1.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/ecaf1c1bff7717bcf684d30ac6e19926/transformed/jetified-viewbinding-8.1.4/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material3:material3:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/9a5b4fa997b2898885f349596b29a5f0/transformed/jetified-material3-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-ripple:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/ce9284ee4a9a867ef068714fe33ff7e8/transformed/jetified-material-ripple-1.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-icons-core:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/f6c3b4932af80854c73b2edfec2a2681/transformed/jetified-material-icons-core-1.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/2d2b7c1839a2d0a2ab682877c430fc2c/transformed/jetified-material-1.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.animation:animation-core:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/058eaabe5053f1e68ae630e5e18cccd5/transformed/jetified-animation-core-1.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.animation:animation:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/b2b3f98b06c4dad3e2e5dbe381bda40d/transformed/jetified-animation-1.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.foundation:foundation-layout:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/69999c391c9377365a08e655e327527e/transformed/jetified-foundation-layout-1.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.foundation:foundation:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/626354917a8e5fadcb5bb428ab2c6f71/transformed/jetified-foundation-1.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-tooling-data:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/65d0585ad50b50f38e116102af543dba/transformed/jetified-ui-tooling-data-1.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-unit:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/c953d56b52f7b0f7bd2e89fbe07100b2/transformed/jetified-ui-unit-1.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-geometry:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/3831c3d2cb6e0dfe9101dcb30673a499/transformed/jetified-ui-geometry-1.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-util:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/fc449d4088fd33b7ca74a6a93fbb9ff0/transformed/jetified-ui-util-1.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-text:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/e5450b1b0142dbcbbaa11f834beac95f/transformed/jetified-ui-text-1.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-tooling-preview:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/8fa000dbbc26fcdb666572ba7967367a/transformed/jetified-ui-tooling-preview-1.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-tooling:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/301c46db050ce9cb4478003171aa0328/transformed/jetified-ui-tooling-1.4.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.ui:ui-test-manifest:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/ac7b5e7afa584690258988b91203bd44/transformed/jetified-ui-test-manifest-1.4.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.ui:ui-graphics:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/2d3463c6f1a993f9bf30df2de055ddf6/transformed/jetified-ui-graphics-1.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.material:material:1.10.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/066634d114624fcf32b3affbb6f013e3/transformed/material-1.10.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/4a5a36beba56d521e070103f703a94fb/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.preference:preference:1.2.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/3166d2596fce825400ae074ef9caafe1/transformed/preference-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/05b66f3c32eaae9fcd8e799e248d6769/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/ba0ca933b1484dd982ad9fa732cdac50/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-messaging:23.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/6a9caa60b950a8405d4b90043fb4f6b5/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:17:1-66:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/85726ed4063ae080ef5a32448220eeb9/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/46ff93a5498da4b7e52d81d12e7cfe24/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/36d61db383428cee449cc61c7c3c9551/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/8e8de39bed25faed504b5be6f72bc696/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/dcbcaac10885a89218e45c0c501152ef/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/d61a93c3b546af97f058c191512a9784/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/5d7b98b6bd3f1762f00942449fbfc849/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/29cd79b7db1121fb0572e1dc187c8b83/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:15:1-41:12
+MERGED from [com.cometchat:chat-sdk-android:4.0.10] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/ecc19f3c36267eab8380c5bc76daf58e/transformed/jetified-chat-sdk-android-4.0.10/AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/d4cd51a26b4e68e1c423b1da971edf0d/transformed/lifecycle-extensions-2.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/fb0551cf88ec5b8f0cbc72e2ec2bafa4/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/52028fb9514f7f5c9049e4df14b0f20d/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.3.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/77f4d5da6c99f6c33a945aace6541587/transformed/recyclerview-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/01d4de0c1384a9afcf480272537d7bb6/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/0c9cbfdb1a40d6bc4bc9bc82cbfcad2c/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/896ed828c14f461a6ab4e50062590cf7/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/1afbeb248219143b08ecb0789c0f1ac9/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/75048feb138441e0feac5bcd848d6502/transformed/jetified-glide-4.9.0/AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/c5f9ef8275437f2d1a3958c807843503/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/3c1f1bd6bda39ab4a6867ed65e5a6ebb/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/7108ed344d5de095bd76524518decb05/transformed/jetified-autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/9727b24ed113d3bb38c578b42e6f6fe2/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/6b56c43c13a89f2816d99a70f4a36cda/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/05ae441473371bd5f5f3a47996ee3449/transformed/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/7a13f02fe4bc6914e91ee52110fc331a/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/b92b5fe57384a1bee503b2a408e53d25/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/e2f9acafadd0621a709a9dde4e4c50cb/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/53a242bc7afaa1ccbef72ba5157b1194/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.fragment:fragment-ktx:1.3.6] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/f35f96f0afbb6443cdb5280978649171/transformed/jetified-fragment-ktx-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.9.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/f85b00fe15e7137a91ff9bfefa9158a8/transformed/jetified-activity-ktx-1.9.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/354e779ac54eacb447fb0662980b06ca/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/d9c8f1ed221d70a34f6b603ba01bb5b9/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/3a392f398bb57cdd1a07602e08288a23/transformed/jetified-emoji2-views-helper-1.3.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/1419c522f49d447e5dcbcb3c937c9008/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/c61b684eac5d69ee2a4458430583b960/transformed/jetified-lifecycle-viewmodel-ktx-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/6393336e4525075587239ee1aef47943/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.6.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/71db73408be455e43ca54d804977a3f5/transformed/jetified-lifecycle-service-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/335c2c8ed1a006787bb80940c84da282/transformed/jetified-lifecycle-runtime-ktx-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/85687959bc39c5523db401763c711de3/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/9e58fef9244ef224409e96142e92a148/transformed/jetified-lifecycle-livedata-core-ktx-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/59b54ed2cb49176137f30375e9366fda/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/311da010b02d405eb313feedaf6dc6c2/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/1101dfec825d3a2b2f3f9c159a533ed1/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.13.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/f4d0ee20ff0e4a3c102431c0269ba380/transformed/jetified-core-ktx-1.13.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.transition:transition:1.4.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/90daabc477834f993f5de14117169715/transformed/transition-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/18cdc98138742ea61a2070d673b47cbc/transformed/jetified-window-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/a88069c19802b6b4a9e4f512111e7622/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/c313982025486cac349422db9f9fa84e/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.13.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/c45f228dacb9a552ad8dd23706c371db/transformed/core-1.13.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/29b908936291bc42d6bec64ddb79b74b/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.6.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/0b1269a8534e066618e7ba18e85affbe/transformed/jetified-lifecycle-livedata-ktx-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/8c87e4ad37c0ae50b8937bab3a590365/transformed/jetified-firebase-installations-interop-17.1.1/AndroidManifest.xml:15:1-19:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/5bb4daacb950a4c16e54f0d154d7fdcd/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/42035122c9240cf24c799f79a0fc4c28/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/69d665b69ee3f2612eb9ebf93935ddbd/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.9.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/82eb3224550885ffdf8051703c7ca4db/transformed/jetified-activity-1.9.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-compose:1.9.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/10c8a53bdfdf8c84bad7c922b05e3c22/transformed/jetified-activity-compose-1.9.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/41afc58b9c8152d1b292a3cc2bba627d/transformed/jetified-ui-1.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.runtime:runtime-saveable:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/a8281644d2b13b1b406c764cbfeacc7f/transformed/jetified-runtime-saveable-1.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.runtime:runtime:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/2c7a6f9a200a213067934bd4a2aecc3b/transformed/jetified-runtime-1.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/33b139b14167ea4d25cc869bb2bdc3ad/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:15:1-33:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/ca661085db5393391a57c267f5f232d1/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:15:1-37:12
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/0a1e436fc955efc923cd7c1aa90854b8/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/36ae985b0c5593e78d99096ee964c8d0/transformed/jetified-transport-api-3.0.0/AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/83e35532e731211e99fac37788dedc53/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/b901ce22a3b54e23df0fc861c338a7a6/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/f51eda9433498ca68a5261dfa2c70a7b/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/2d70be6b9cce38bfe7229a208c9dc54a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/621ee01f2097269bc8b014cf1326a024/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/bbfec51b62e09e65fef301bc7964bd43/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-components:17.1.5] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/b8c834175660a77bb75b1b7725e75f68/transformed/jetified-firebase-components-17.1.5/AndroidManifest.xml:15:1-20:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/0bf7a7798188dfa82372e56bd41a8eca/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/99bf96100545583ed34cc2ca74414d73/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/93f92fbfc51a1077ef9f065065ea96db/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/06d65429d4db961e97e7eccdb095f53b/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/af13dab5e9fc3191668acaa0e45734eb/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/475a280e7cbb263299511700f0009e42/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/d85709a307c5960fb93d63e11509e420/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.flexbox:flexbox:3.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/2f0967ebdbe81eb0095e8ad521e42ca4/transformed/jetified-flexbox-3.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/0826ff0a4a0500b03408b90412dc604e/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
+	package
+		INJECTED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml:6:5-67
+MERGED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:11:5-67
+MERGED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/36d61db383428cee449cc61c7c3c9551/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/36d61db383428cee449cc61c7c3c9551/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/d61a93c3b546af97f058c191512a9784/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/d61a93c3b546af97f058c191512a9784/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:8:5-67
+MERGED from [com.cometchat:chat-sdk-android:4.0.10] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/ecc19f3c36267eab8380c5bc76daf58e/transformed/jetified-chat-sdk-android-4.0.10/AndroidManifest.xml:11:5-67
+MERGED from [com.cometchat:chat-sdk-android:4.0.10] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/ecc19f3c36267eab8380c5bc76daf58e/transformed/jetified-chat-sdk-android-4.0.10/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/ca661085db5393391a57c267f5f232d1/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/ca661085db5393391a57c267f5f232d1/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:25:5-67
+	android:name
+		ADDED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml:7:5-78
+MERGED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:10:5-79
+MERGED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-messaging:23.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/6a9caa60b950a8405d4b90043fb4f6b5/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-messaging:23.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/6a9caa60b950a8405d4b90043fb4f6b5/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/36d61db383428cee449cc61c7c3c9551/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/36d61db383428cee449cc61c7c3c9551/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/d61a93c3b546af97f058c191512a9784/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/d61a93c3b546af97f058c191512a9784/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:7:5-79
+MERGED from [com.cometchat:chat-sdk-android:4.0.10] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/ecc19f3c36267eab8380c5bc76daf58e/transformed/jetified-chat-sdk-android-4.0.10/AndroidManifest.xml:12:5-79
+MERGED from [com.cometchat:chat-sdk-android:4.0.10] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/ecc19f3c36267eab8380c5bc76daf58e/transformed/jetified-chat-sdk-android-4.0.10/AndroidManifest.xml:12:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/ca661085db5393391a57c267f5f232d1/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/ca661085db5393391a57c267f5f232d1/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/0a1e436fc955efc923cd7c1aa90854b8/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/0a1e436fc955efc923cd7c1aa90854b8/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml:7:22-76
+application
+ADDED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml:10:5-65:19
+INJECTED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml:10:5-65:19
+MERGED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:37:5-105:19
+MERGED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:37:5-105:19
+MERGED from [androidx.compose.ui:ui-tooling:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/301c46db050ce9cb4478003171aa0328/transformed/jetified-ui-tooling-1.4.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/301c46db050ce9cb4478003171aa0328/transformed/jetified-ui-tooling-1.4.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/ac7b5e7afa584690258988b91203bd44/transformed/jetified-ui-test-manifest-1.4.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/ac7b5e7afa584690258988b91203bd44/transformed/jetified-ui-test-manifest-1.4.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.material:material:1.10.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/066634d114624fcf32b3affbb6f013e3/transformed/material-1.10.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.10.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/066634d114624fcf32b3affbb6f013e3/transformed/material-1.10.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/4a5a36beba56d521e070103f703a94fb/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/4a5a36beba56d521e070103f703a94fb/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-messaging:23.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/6a9caa60b950a8405d4b90043fb4f6b5/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:28:5-64:19
+MERGED from [com.google.firebase:firebase-messaging:23.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/6a9caa60b950a8405d4b90043fb4f6b5/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:28:5-64:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/85726ed4063ae080ef5a32448220eeb9/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/85726ed4063ae080ef5a32448220eeb9/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/46ff93a5498da4b7e52d81d12e7cfe24/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/46ff93a5498da4b7e52d81d12e7cfe24/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/8e8de39bed25faed504b5be6f72bc696/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/8e8de39bed25faed504b5be6f72bc696/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/dcbcaac10885a89218e45c0c501152ef/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/dcbcaac10885a89218e45c0c501152ef/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/d61a93c3b546af97f058c191512a9784/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/d61a93c3b546af97f058c191512a9784/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/5d7b98b6bd3f1762f00942449fbfc849/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/5d7b98b6bd3f1762f00942449fbfc849/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/29cd79b7db1121fb0572e1dc187c8b83/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/29cd79b7db1121fb0572e1dc187c8b83/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:22:5-39:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/d4cd51a26b4e68e1c423b1da971edf0d/transformed/lifecycle-extensions-2.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/d4cd51a26b4e68e1c423b1da971edf0d/transformed/lifecycle-extensions-2.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/75048feb138441e0feac5bcd848d6502/transformed/jetified-glide-4.9.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/75048feb138441e0feac5bcd848d6502/transformed/jetified-glide-4.9.0/AndroidManifest.xml:10:5-20
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/1419c522f49d447e5dcbcb3c937c9008/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/1419c522f49d447e5dcbcb3c937c9008/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/85687959bc39c5523db401763c711de3/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/85687959bc39c5523db401763c711de3/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.window:window:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/18cdc98138742ea61a2070d673b47cbc/transformed/jetified-window-1.0.0/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/18cdc98138742ea61a2070d673b47cbc/transformed/jetified-window-1.0.0/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.core:core:1.13.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/c45f228dacb9a552ad8dd23706c371db/transformed/core-1.13.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/c45f228dacb9a552ad8dd23706c371db/transformed/core-1.13.0/AndroidManifest.xml:28:5-89
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/5bb4daacb950a4c16e54f0d154d7fdcd/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/5bb4daacb950a4c16e54f0d154d7fdcd/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/42035122c9240cf24c799f79a0fc4c28/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/42035122c9240cf24c799f79a0fc4c28/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/33b139b14167ea4d25cc869bb2bdc3ad/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:23:5-31:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/33b139b14167ea4d25cc869bb2bdc3ad/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:23:5-31:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/ca661085db5393391a57c267f5f232d1/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/ca661085db5393391a57c267f5f232d1/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/0a1e436fc955efc923cd7c1aa90854b8/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/0a1e436fc955efc923cd7c1aa90854b8/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:25:5-39:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/2d70be6b9cce38bfe7229a208c9dc54a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/2d70be6b9cce38bfe7229a208c9dc54a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/621ee01f2097269bc8b014cf1326a024/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/621ee01f2097269bc8b014cf1326a024/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/0bf7a7798188dfa82372e56bd41a8eca/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/0bf7a7798188dfa82372e56bd41a8eca/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/99bf96100545583ed34cc2ca74414d73/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/99bf96100545583ed34cc2ca74414d73/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:requestLegacyExternalStorage
+		ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:39:9-52
+	android:extractNativeLibs
+		INJECTED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml
+	android:roundIcon
+		ADDED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml:16:9-54
+	android:icon
+		ADDED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml:14:9-43
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/c45f228dacb9a552ad8dd23706c371db/transformed/core-1.13.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml:17:9-35
+	android:label
+		ADDED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml:15:9-41
+	android:hardwareAccelerated
+		ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:38:9-43
+	android:fullBackupContent
+		ADDED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml:13:9-54
+	tools:targetApi
+		ADDED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml:19:9-29
+	android:allowBackup
+		ADDED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml:11:9-35
+	android:theme
+		ADDED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml:18:9-68
+	android:dataExtractionRules
+		ADDED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml:12:9-65
+	android:usesCleartextTraffic
+		ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:40:9-44
+activity#com.example.cometchatandroidsample.SplashScreen
+ADDED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml:22:9-29:20
+	android:exported
+		ADDED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml:24:13-36
+	android:name
+		ADDED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml:23:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml:25:13-28:29
+action#android.intent.action.MAIN
+ADDED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml:27:17-77
+	android:name
+		ADDED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml:27:27-74
+activity#com.example.cometchatandroidsample.MainActivity
+ADDED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml:32:9-35:40
+	android:label
+		ADDED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml:34:13-45
+	android:exported
+		ADDED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml:33:13-41
+activity#com.example.cometchatandroidsample.LoginActivity
+ADDED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml:38:9-41:40
+	android:label
+		ADDED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml:40:13-57
+	android:exported
+		ADDED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml:39:13-42
+activity#com.example.cometchatandroidsample.SignupActivity
+ADDED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml:44:9-47:40
+	android:label
+		ADDED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml:46:13-58
+	android:exported
+		ADDED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml:45:13-43
+activity#com.example.cometchatandroidsample.HomePageActivity
+ADDED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml:49:9-54
+	android:name
+		ADDED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml:49:19-51
+activity#com.example.cometchatandroidsample.HealthActivity
+ADDED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml:50:9-52
+	android:name
+		ADDED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml:50:19-49
+activity#com.example.cometchatandroidsample.SecurityActivity
+ADDED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml:51:9-54
+	android:name
+		ADDED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml:51:19-51
+activity#com.example.cometchatandroidsample.EducationActivity
+ADDED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml:52:9-55
+	android:name
+		ADDED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml:52:19-52
+activity#com.example.cometchatandroidsample.ConversationsActivity
+ADDED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml:53:9-59
+	android:name
+		ADDED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml:53:19-56
+service#com.example.cometchatandroidsample.MyFirebaseMessagingService
+ADDED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml:57:9-63:19
+	android:exported
+		ADDED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml:59:13-37
+	android:name
+		ADDED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml:58:13-55
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml:60:13-62:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml:61:17-78
+	android:name
+		ADDED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml:61:25-75
+uses-sdk
+INJECTED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml
+INJECTED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml
+MERGED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:6:5-8:41
+MERGED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.databinding:databinding-adapters:7.0.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/d92fda23248e61a7fa59f3db1d03ccc9/transformed/databinding-adapters-7.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:databinding-adapters:7.0.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/d92fda23248e61a7fa59f3db1d03ccc9/transformed/databinding-adapters-7.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:databinding-runtime:7.0.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/28c557a0f061fc218bc521f854721c92/transformed/databinding-runtime-7.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:databinding-runtime:7.0.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/28c557a0f061fc218bc521f854721c92/transformed/databinding-runtime-7.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:8.1.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/ecaf1c1bff7717bcf684d30ac6e19926/transformed/jetified-viewbinding-8.1.4/AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.1.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/ecaf1c1bff7717bcf684d30ac6e19926/transformed/jetified-viewbinding-8.1.4/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material3:material3:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/9a5b4fa997b2898885f349596b29a5f0/transformed/jetified-material3-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/9a5b4fa997b2898885f349596b29a5f0/transformed/jetified-material3-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-ripple:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/ce9284ee4a9a867ef068714fe33ff7e8/transformed/jetified-material-ripple-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-ripple:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/ce9284ee4a9a867ef068714fe33ff7e8/transformed/jetified-material-ripple-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-icons-core:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/f6c3b4932af80854c73b2edfec2a2681/transformed/jetified-material-icons-core-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-icons-core:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/f6c3b4932af80854c73b2edfec2a2681/transformed/jetified-material-icons-core-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/2d2b7c1839a2d0a2ab682877c430fc2c/transformed/jetified-material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/2d2b7c1839a2d0a2ab682877c430fc2c/transformed/jetified-material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.animation:animation-core:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/058eaabe5053f1e68ae630e5e18cccd5/transformed/jetified-animation-core-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.animation:animation-core:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/058eaabe5053f1e68ae630e5e18cccd5/transformed/jetified-animation-core-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.animation:animation:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/b2b3f98b06c4dad3e2e5dbe381bda40d/transformed/jetified-animation-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.animation:animation:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/b2b3f98b06c4dad3e2e5dbe381bda40d/transformed/jetified-animation-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.foundation:foundation-layout:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/69999c391c9377365a08e655e327527e/transformed/jetified-foundation-layout-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.foundation:foundation-layout:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/69999c391c9377365a08e655e327527e/transformed/jetified-foundation-layout-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.foundation:foundation:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/626354917a8e5fadcb5bb428ab2c6f71/transformed/jetified-foundation-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.foundation:foundation:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/626354917a8e5fadcb5bb428ab2c6f71/transformed/jetified-foundation-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/65d0585ad50b50f38e116102af543dba/transformed/jetified-ui-tooling-data-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/65d0585ad50b50f38e116102af543dba/transformed/jetified-ui-tooling-data-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-unit:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/c953d56b52f7b0f7bd2e89fbe07100b2/transformed/jetified-ui-unit-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-unit:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/c953d56b52f7b0f7bd2e89fbe07100b2/transformed/jetified-ui-unit-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-geometry:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/3831c3d2cb6e0dfe9101dcb30673a499/transformed/jetified-ui-geometry-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-geometry:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/3831c3d2cb6e0dfe9101dcb30673a499/transformed/jetified-ui-geometry-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-util:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/fc449d4088fd33b7ca74a6a93fbb9ff0/transformed/jetified-ui-util-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-util:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/fc449d4088fd33b7ca74a6a93fbb9ff0/transformed/jetified-ui-util-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-text:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/e5450b1b0142dbcbbaa11f834beac95f/transformed/jetified-ui-text-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-text:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/e5450b1b0142dbcbbaa11f834beac95f/transformed/jetified-ui-text-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/8fa000dbbc26fcdb666572ba7967367a/transformed/jetified-ui-tooling-preview-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/8fa000dbbc26fcdb666572ba7967367a/transformed/jetified-ui-tooling-preview-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/301c46db050ce9cb4478003171aa0328/transformed/jetified-ui-tooling-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/301c46db050ce9cb4478003171aa0328/transformed/jetified-ui-tooling-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/ac7b5e7afa584690258988b91203bd44/transformed/jetified-ui-test-manifest-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/ac7b5e7afa584690258988b91203bd44/transformed/jetified-ui-test-manifest-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-graphics:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/2d3463c6f1a993f9bf30df2de055ddf6/transformed/jetified-ui-graphics-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-graphics:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/2d3463c6f1a993f9bf30df2de055ddf6/transformed/jetified-ui-graphics-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.10.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/066634d114624fcf32b3affbb6f013e3/transformed/material-1.10.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.10.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/066634d114624fcf32b3affbb6f013e3/transformed/material-1.10.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/4a5a36beba56d521e070103f703a94fb/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/4a5a36beba56d521e070103f703a94fb/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.preference:preference:1.2.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/3166d2596fce825400ae074ef9caafe1/transformed/preference-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.2.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/3166d2596fce825400ae074ef9caafe1/transformed/preference-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/05b66f3c32eaae9fcd8e799e248d6769/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/05b66f3c32eaae9fcd8e799e248d6769/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/ba0ca933b1484dd982ad9fa732cdac50/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/ba0ca933b1484dd982ad9fa732cdac50/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:23.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/6a9caa60b950a8405d4b90043fb4f6b5/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:23.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/6a9caa60b950a8405d4b90043fb4f6b5/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/85726ed4063ae080ef5a32448220eeb9/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/85726ed4063ae080ef5a32448220eeb9/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/46ff93a5498da4b7e52d81d12e7cfe24/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/46ff93a5498da4b7e52d81d12e7cfe24/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/36d61db383428cee449cc61c7c3c9551/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/36d61db383428cee449cc61c7c3c9551/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/8e8de39bed25faed504b5be6f72bc696/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/8e8de39bed25faed504b5be6f72bc696/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/dcbcaac10885a89218e45c0c501152ef/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/dcbcaac10885a89218e45c0c501152ef/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/d61a93c3b546af97f058c191512a9784/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/d61a93c3b546af97f058c191512a9784/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/5d7b98b6bd3f1762f00942449fbfc849/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/5d7b98b6bd3f1762f00942449fbfc849/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/29cd79b7db1121fb0572e1dc187c8b83/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/29cd79b7db1121fb0572e1dc187c8b83/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:19:5-44
+MERGED from [com.cometchat:chat-sdk-android:4.0.10] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/ecc19f3c36267eab8380c5bc76daf58e/transformed/jetified-chat-sdk-android-4.0.10/AndroidManifest.xml:7:5-9:41
+MERGED from [com.cometchat:chat-sdk-android:4.0.10] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/ecc19f3c36267eab8380c5bc76daf58e/transformed/jetified-chat-sdk-android-4.0.10/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/d4cd51a26b4e68e1c423b1da971edf0d/transformed/lifecycle-extensions-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/d4cd51a26b4e68e1c423b1da971edf0d/transformed/lifecycle-extensions-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/fb0551cf88ec5b8f0cbc72e2ec2bafa4/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/fb0551cf88ec5b8f0cbc72e2ec2bafa4/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/52028fb9514f7f5c9049e4df14b0f20d/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/52028fb9514f7f5c9049e4df14b0f20d/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.3.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/77f4d5da6c99f6c33a945aace6541587/transformed/recyclerview-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/77f4d5da6c99f6c33a945aace6541587/transformed/recyclerview-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/01d4de0c1384a9afcf480272537d7bb6/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/01d4de0c1384a9afcf480272537d7bb6/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/0c9cbfdb1a40d6bc4bc9bc82cbfcad2c/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/0c9cbfdb1a40d6bc4bc9bc82cbfcad2c/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/896ed828c14f461a6ab4e50062590cf7/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/896ed828c14f461a6ab4e50062590cf7/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/1afbeb248219143b08ecb0789c0f1ac9/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/1afbeb248219143b08ecb0789c0f1ac9/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/75048feb138441e0feac5bcd848d6502/transformed/jetified-glide-4.9.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/75048feb138441e0feac5bcd848d6502/transformed/jetified-glide-4.9.0/AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/c5f9ef8275437f2d1a3958c807843503/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/c5f9ef8275437f2d1a3958c807843503/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/3c1f1bd6bda39ab4a6867ed65e5a6ebb/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/3c1f1bd6bda39ab4a6867ed65e5a6ebb/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/7108ed344d5de095bd76524518decb05/transformed/jetified-autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/7108ed344d5de095bd76524518decb05/transformed/jetified-autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/9727b24ed113d3bb38c578b42e6f6fe2/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/9727b24ed113d3bb38c578b42e6f6fe2/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/6b56c43c13a89f2816d99a70f4a36cda/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/6b56c43c13a89f2816d99a70f4a36cda/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/05ae441473371bd5f5f3a47996ee3449/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/05ae441473371bd5f5f3a47996ee3449/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/7a13f02fe4bc6914e91ee52110fc331a/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/7a13f02fe4bc6914e91ee52110fc331a/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/b92b5fe57384a1bee503b2a408e53d25/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/b92b5fe57384a1bee503b2a408e53d25/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/e2f9acafadd0621a709a9dde4e4c50cb/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/e2f9acafadd0621a709a9dde4e4c50cb/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/53a242bc7afaa1ccbef72ba5157b1194/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/53a242bc7afaa1ccbef72ba5157b1194/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.fragment:fragment-ktx:1.3.6] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/f35f96f0afbb6443cdb5280978649171/transformed/jetified-fragment-ktx-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.3.6] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/f35f96f0afbb6443cdb5280978649171/transformed/jetified-fragment-ktx-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.9.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/f85b00fe15e7137a91ff9bfefa9158a8/transformed/jetified-activity-ktx-1.9.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/f85b00fe15e7137a91ff9bfefa9158a8/transformed/jetified-activity-ktx-1.9.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/354e779ac54eacb447fb0662980b06ca/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/354e779ac54eacb447fb0662980b06ca/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/d9c8f1ed221d70a34f6b603ba01bb5b9/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/d9c8f1ed221d70a34f6b603ba01bb5b9/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/3a392f398bb57cdd1a07602e08288a23/transformed/jetified-emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/3a392f398bb57cdd1a07602e08288a23/transformed/jetified-emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/1419c522f49d447e5dcbcb3c937c9008/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/1419c522f49d447e5dcbcb3c937c9008/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/c61b684eac5d69ee2a4458430583b960/transformed/jetified-lifecycle-viewmodel-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/c61b684eac5d69ee2a4458430583b960/transformed/jetified-lifecycle-viewmodel-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/6393336e4525075587239ee1aef47943/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/6393336e4525075587239ee1aef47943/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.6.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/71db73408be455e43ca54d804977a3f5/transformed/jetified-lifecycle-service-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.6.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/71db73408be455e43ca54d804977a3f5/transformed/jetified-lifecycle-service-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/335c2c8ed1a006787bb80940c84da282/transformed/jetified-lifecycle-runtime-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/335c2c8ed1a006787bb80940c84da282/transformed/jetified-lifecycle-runtime-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/85687959bc39c5523db401763c711de3/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/85687959bc39c5523db401763c711de3/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/9e58fef9244ef224409e96142e92a148/transformed/jetified-lifecycle-livedata-core-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/9e58fef9244ef224409e96142e92a148/transformed/jetified-lifecycle-livedata-core-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/59b54ed2cb49176137f30375e9366fda/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/59b54ed2cb49176137f30375e9366fda/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/311da010b02d405eb313feedaf6dc6c2/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/311da010b02d405eb313feedaf6dc6c2/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/1101dfec825d3a2b2f3f9c159a533ed1/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/1101dfec825d3a2b2f3f9c159a533ed1/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.13.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/f4d0ee20ff0e4a3c102431c0269ba380/transformed/jetified-core-ktx-1.13.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/f4d0ee20ff0e4a3c102431c0269ba380/transformed/jetified-core-ktx-1.13.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.4.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/90daabc477834f993f5de14117169715/transformed/transition-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/90daabc477834f993f5de14117169715/transformed/transition-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/18cdc98138742ea61a2070d673b47cbc/transformed/jetified-window-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/18cdc98138742ea61a2070d673b47cbc/transformed/jetified-window-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/a88069c19802b6b4a9e4f512111e7622/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/a88069c19802b6b4a9e4f512111e7622/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/c313982025486cac349422db9f9fa84e/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/c313982025486cac349422db9f9fa84e/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/c45f228dacb9a552ad8dd23706c371db/transformed/core-1.13.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/c45f228dacb9a552ad8dd23706c371db/transformed/core-1.13.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/29b908936291bc42d6bec64ddb79b74b/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/29b908936291bc42d6bec64ddb79b74b/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.6.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/0b1269a8534e066618e7ba18e85affbe/transformed/jetified-lifecycle-livedata-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.6.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/0b1269a8534e066618e7ba18e85affbe/transformed/jetified-lifecycle-livedata-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/8c87e4ad37c0ae50b8937bab3a590365/transformed/jetified-firebase-installations-interop-17.1.1/AndroidManifest.xml:17:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/8c87e4ad37c0ae50b8937bab3a590365/transformed/jetified-firebase-installations-interop-17.1.1/AndroidManifest.xml:17:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/5bb4daacb950a4c16e54f0d154d7fdcd/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/5bb4daacb950a4c16e54f0d154d7fdcd/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/42035122c9240cf24c799f79a0fc4c28/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/42035122c9240cf24c799f79a0fc4c28/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/69d665b69ee3f2612eb9ebf93935ddbd/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/69d665b69ee3f2612eb9ebf93935ddbd/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.9.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/82eb3224550885ffdf8051703c7ca4db/transformed/jetified-activity-1.9.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/82eb3224550885ffdf8051703c7ca4db/transformed/jetified-activity-1.9.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-compose:1.9.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/10c8a53bdfdf8c84bad7c922b05e3c22/transformed/jetified-activity-compose-1.9.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.9.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/10c8a53bdfdf8c84bad7c922b05e3c22/transformed/jetified-activity-compose-1.9.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/41afc58b9c8152d1b292a3cc2bba627d/transformed/jetified-ui-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/41afc58b9c8152d1b292a3cc2bba627d/transformed/jetified-ui-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/a8281644d2b13b1b406c764cbfeacc7f/transformed/jetified-runtime-saveable-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/a8281644d2b13b1b406c764cbfeacc7f/transformed/jetified-runtime-saveable-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/2c7a6f9a200a213067934bd4a2aecc3b/transformed/jetified-runtime-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/2c7a6f9a200a213067934bd4a2aecc3b/transformed/jetified-runtime-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/33b139b14167ea4d25cc869bb2bdc3ad/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/33b139b14167ea4d25cc869bb2bdc3ad/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/ca661085db5393391a57c267f5f232d1/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/ca661085db5393391a57c267f5f232d1/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/0a1e436fc955efc923cd7c1aa90854b8/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/0a1e436fc955efc923cd7c1aa90854b8/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/36ae985b0c5593e78d99096ee964c8d0/transformed/jetified-transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/36ae985b0c5593e78d99096ee964c8d0/transformed/jetified-transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/83e35532e731211e99fac37788dedc53/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/83e35532e731211e99fac37788dedc53/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/b901ce22a3b54e23df0fc861c338a7a6/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/b901ce22a3b54e23df0fc861c338a7a6/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/f51eda9433498ca68a5261dfa2c70a7b/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/f51eda9433498ca68a5261dfa2c70a7b/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/2d70be6b9cce38bfe7229a208c9dc54a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/2d70be6b9cce38bfe7229a208c9dc54a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/621ee01f2097269bc8b014cf1326a024/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/621ee01f2097269bc8b014cf1326a024/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/bbfec51b62e09e65fef301bc7964bd43/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/bbfec51b62e09e65fef301bc7964bd43/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-components:17.1.5] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/b8c834175660a77bb75b1b7725e75f68/transformed/jetified-firebase-components-17.1.5/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-components:17.1.5] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/b8c834175660a77bb75b1b7725e75f68/transformed/jetified-firebase-components-17.1.5/AndroidManifest.xml:18:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/0bf7a7798188dfa82372e56bd41a8eca/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/0bf7a7798188dfa82372e56bd41a8eca/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/99bf96100545583ed34cc2ca74414d73/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/99bf96100545583ed34cc2ca74414d73/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/93f92fbfc51a1077ef9f065065ea96db/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/93f92fbfc51a1077ef9f065065ea96db/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/06d65429d4db961e97e7eccdb095f53b/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/06d65429d4db961e97e7eccdb095f53b/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/af13dab5e9fc3191668acaa0e45734eb/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/af13dab5e9fc3191668acaa0e45734eb/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/475a280e7cbb263299511700f0009e42/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/475a280e7cbb263299511700f0009e42/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/d85709a307c5960fb93d63e11509e420/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/d85709a307c5960fb93d63e11509e420/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.flexbox:flexbox:3.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/2f0967ebdbe81eb0095e8ad521e42ca4/transformed/jetified-flexbox-3.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.flexbox:flexbox:3.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/2f0967ebdbe81eb0095e8ad521e42ca4/transformed/jetified-flexbox-3.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/0826ff0a4a0500b03408b90412dc604e/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/0826ff0a4a0500b03408b90412dc604e/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+	android:targetSdkVersion
+		INJECTED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/jagdishgodse/Desktop/EmpowHer CC/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.CAMERA
+ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:12:5-65
+	android:name
+		ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:12:22-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:13:5-71
+	android:name
+		ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:13:22-68
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:14:5-80
+	android:name
+		ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:14:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:15:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:16:5-80
+	android:name
+		ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:16:22-77
+uses-permission#android.permission.VIBRATE
+ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:17:5-66
+	android:name
+		ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:17:22-63
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:18:5-81
+	android:name
+		ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:18:22-78
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:19:22-75
+queries
+ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:21:5-35:15
+intent#action:name:android.intent.action.GET_CONTENT+data:mimeType:image/* video/*
+ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:22:9-26:18
+action#android.intent.action.GET_CONTENT
+ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:23:13-72
+	android:name
+		ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:23:21-69
+data
+ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:25:13-56
+	android:mimeType
+		ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:25:19-53
+intent#action:name:android.intent.action.PICK+data:mimeType:image/* video/*
+ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:27:9-31:18
+action#android.intent.action.PICK
+ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:28:13-65
+	android:name
+		ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:28:21-62
+intent#action:name:android.intent.action.CHOOSER
+ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:32:9-34:18
+action#android.intent.action.CHOOSER
+ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:33:13-68
+	android:name
+		ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:33:21-65
+activity#com.cometchat.chatuikit.users.CometChatUserActivity
+ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:43:9-50:20
+	android:screenOrientation
+		ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:46:13-49
+	android:exported
+		ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:45:13-37
+	android:name
+		ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:44:13-79
+meta-data#android.app.lib_name
+ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:47:13-49:36
+	android:value
+		ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:49:17-33
+	android:name
+		ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:48:17-52
+activity#com.cometchat.chatuikit.groups.CometChatGroupActivity
+ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:51:9-58:20
+	android:screenOrientation
+		ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:54:13-49
+	android:exported
+		ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:53:13-37
+	android:name
+		ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:52:13-81
+activity#com.cometchat.chatuikit.calls.calldetails.CallDetailsActivity
+ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:59:9-62:52
+	android:screenOrientation
+		ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:62:13-49
+	android:exported
+		ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:61:13-36
+	android:name
+		ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:60:13-89
+activity#com.cometchat.chatuikit.calls.CometChatCallActivity
+ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:63:9-66:52
+	android:screenOrientation
+		ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:66:13-49
+	android:exported
+		ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:65:13-36
+	android:name
+		ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:64:13-79
+activity#com.cometchat.chatuikit.messages.MessageActivity
+ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:67:9-74:20
+	android:screenOrientation
+		ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:70:13-49
+	android:exported
+		ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:69:13-36
+	android:name
+		ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:68:13-76
+activity#com.cometchat.chatuikit.threadedmessages.ThreadedMessagesActivity
+ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:75:9-78:52
+	android:screenOrientation
+		ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:78:13-49
+	android:exported
+		ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:77:13-37
+	android:name
+		ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:76:13-93
+activity#com.cometchat.chatuikit.extensions.collaborative.CometChatWebViewActivity
+ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:79:9-82:52
+	android:screenOrientation
+		ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:82:13-49
+	android:exported
+		ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:81:13-37
+	android:name
+		ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:80:13-101
+activity#com.cometchat.chatuikit.extensions.reaction.CometChatReactionInfoActivity
+ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:83:9-86:52
+	android:screenOrientation
+		ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:86:13-49
+	android:exported
+		ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:85:13-37
+	android:name
+		ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:84:13-101
+activity#com.cometchat.chatuikit.shared.views.mediaview.CometChatMediaViewActivity
+ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:87:9-90:52
+	android:screenOrientation
+		ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:90:13-49
+	android:exported
+		ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:89:13-37
+	android:name
+		ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:88:13-101
+meta-data#com.cometchat.chatuikit
+ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:92:9-94:48
+	android:value
+		ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:94:13-45
+	android:name
+		ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:93:13-51
+provider#androidx.core.content.FileProvider
+ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:96:9-104:20
+	android:grantUriPermissions
+		ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:100:13-47
+	android:authorities
+		ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:98:13-60
+	android:exported
+		ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:99:13-37
+	android:name
+		ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:97:13-62
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:101:13-103:57
+	android:resource
+		ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:103:17-54
+	android:name
+		ADDED from [com.cometchat:chat-uikit-android:4.0.4] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/25dfc92c93b7e98fdf66d99d9868232e/transformed/jetified-chat-uikit-android-4.0.4/AndroidManifest.xml:102:17-67
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/301c46db050ce9cb4478003171aa0328/transformed/jetified-ui-tooling-1.4.0/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/301c46db050ce9cb4478003171aa0328/transformed/jetified-ui-tooling-1.4.0/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/301c46db050ce9cb4478003171aa0328/transformed/jetified-ui-tooling-1.4.0/AndroidManifest.xml:24:13-71
+activity#androidx.activity.ComponentActivity
+ADDED from [androidx.compose.ui:ui-test-manifest:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/ac7b5e7afa584690258988b91203bd44/transformed/jetified-ui-test-manifest-1.4.0/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/ac7b5e7afa584690258988b91203bd44/transformed/jetified-ui-test-manifest-1.4.0/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.4.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/ac7b5e7afa584690258988b91203bd44/transformed/jetified-ui-test-manifest-1.4.0/AndroidManifest.xml:24:13-63
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/6a9caa60b950a8405d4b90043fb4f6b5/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:23:5-77
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/6a9caa60b950a8405d4b90043fb4f6b5/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:23:22-74
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/6a9caa60b950a8405d4b90043fb4f6b5/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/36d61db383428cee449cc61c7c3c9551/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/36d61db383428cee449cc61c7c3c9551/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:9:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/6a9caa60b950a8405d4b90043fb4f6b5/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:24:22-65
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/6a9caa60b950a8405d4b90043fb4f6b5/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:26:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/36d61db383428cee449cc61c7c3c9551/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:11:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/36d61db383428cee449cc61c7c3c9551/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:11:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/6a9caa60b950a8405d4b90043fb4f6b5/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:26:22-79
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/6a9caa60b950a8405d4b90043fb4f6b5/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:29:9-40:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/6a9caa60b950a8405d4b90043fb4f6b5/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:31:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/6a9caa60b950a8405d4b90043fb4f6b5/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:32:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/6a9caa60b950a8405d4b90043fb4f6b5/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:30:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/6a9caa60b950a8405d4b90043fb4f6b5/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:33:13-35:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/6a9caa60b950a8405d4b90043fb4f6b5/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:34:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/6a9caa60b950a8405d4b90043fb4f6b5/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:34:25-78
+meta-data#com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED
+ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/6a9caa60b950a8405d4b90043fb4f6b5/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:37:13-39:40
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/6a9caa60b950a8405d4b90043fb4f6b5/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:39:17-37
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/6a9caa60b950a8405d4b90043fb4f6b5/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:38:17-92
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/6a9caa60b950a8405d4b90043fb4f6b5/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:46:9-53:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/6a9caa60b950a8405d4b90043fb4f6b5/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:49:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/6a9caa60b950a8405d4b90043fb4f6b5/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:48:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/6a9caa60b950a8405d4b90043fb4f6b5/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:47:13-82
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/6a9caa60b950a8405d4b90043fb4f6b5/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:54:9-63:19
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/d61a93c3b546af97f058c191512a9784/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/d61a93c3b546af97f058c191512a9784/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/5d7b98b6bd3f1762f00942449fbfc849/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/5d7b98b6bd3f1762f00942449fbfc849/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/29cd79b7db1121fb0572e1dc187c8b83/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/29cd79b7db1121fb0572e1dc187c8b83/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/33b139b14167ea4d25cc869bb2bdc3ad/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:24:9-30:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/33b139b14167ea4d25cc869bb2bdc3ad/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:24:9-30:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/6a9caa60b950a8405d4b90043fb4f6b5/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:56:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/29cd79b7db1121fb0572e1dc187c8b83/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:34:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/29cd79b7db1121fb0572e1dc187c8b83/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:32:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/6a9caa60b950a8405d4b90043fb4f6b5/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:55:13-84
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar
+ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/6a9caa60b950a8405d4b90043fb4f6b5/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:57:13-59:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/6a9caa60b950a8405d4b90043fb4f6b5/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:59:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/6a9caa60b950a8405d4b90043fb4f6b5/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:58:17-122
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar
+ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/6a9caa60b950a8405d4b90043fb4f6b5/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:60:13-62:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/6a9caa60b950a8405d4b90043fb4f6b5/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:62:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/6a9caa60b950a8405d4b90043fb4f6b5/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:61:17-119
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/46ff93a5498da4b7e52d81d12e7cfe24/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/46ff93a5498da4b7e52d81d12e7cfe24/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/46ff93a5498da4b7e52d81d12e7cfe24/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/46ff93a5498da4b7e52d81d12e7cfe24/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.2.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/d61a93c3b546af97f058c191512a9784/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.2.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/d61a93c3b546af97f058c191512a9784/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.2.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/d61a93c3b546af97f058c191512a9784/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:16:17-130
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.2.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/d61a93c3b546af97f058c191512a9784/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.2.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/d61a93c3b546af97f058c191512a9784/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.2.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/d61a93c3b546af97f058c191512a9784/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:19:17-127
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/5d7b98b6bd3f1762f00942449fbfc849/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/5d7b98b6bd3f1762f00942449fbfc849/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/5d7b98b6bd3f1762f00942449fbfc849/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:13:17-116
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/29cd79b7db1121fb0572e1dc187c8b83/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:23:9-28:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/29cd79b7db1121fb0572e1dc187c8b83/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:25:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/29cd79b7db1121fb0572e1dc187c8b83/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:27:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/29cd79b7db1121fb0572e1dc187c8b83/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:26:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/29cd79b7db1121fb0572e1dc187c8b83/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/29cd79b7db1121fb0572e1dc187c8b83/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:24:13-77
+meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/29cd79b7db1121fb0572e1dc187c8b83/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:35:13-37:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/29cd79b7db1121fb0572e1dc187c8b83/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:37:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/29cd79b7db1121fb0572e1dc187c8b83/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:36:17-109
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/1419c522f49d447e5dcbcb3c937c9008/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/85687959bc39c5523db401763c711de3/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/85687959bc39c5523db401763c711de3/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/2d70be6b9cce38bfe7229a208c9dc54a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/2d70be6b9cce38bfe7229a208c9dc54a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/621ee01f2097269bc8b014cf1326a024/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/621ee01f2097269bc8b014cf1326a024/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/1419c522f49d447e5dcbcb3c937c9008/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/1419c522f49d447e5dcbcb3c937c9008/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/1419c522f49d447e5dcbcb3c937c9008/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/1419c522f49d447e5dcbcb3c937c9008/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/1419c522f49d447e5dcbcb3c937c9008/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/1419c522f49d447e5dcbcb3c937c9008/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/1419c522f49d447e5dcbcb3c937c9008/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/85687959bc39c5523db401763c711de3/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/85687959bc39c5523db401763c711de3/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/85687959bc39c5523db401763c711de3/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/18cdc98138742ea61a2070d673b47cbc/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/18cdc98138742ea61a2070d673b47cbc/transformed/jetified-window-1.0.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/18cdc98138742ea61a2070d673b47cbc/transformed/jetified-window-1.0.0/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/18cdc98138742ea61a2070d673b47cbc/transformed/jetified-window-1.0.0/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/18cdc98138742ea61a2070d673b47cbc/transformed/jetified-window-1.0.0/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/18cdc98138742ea61a2070d673b47cbc/transformed/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/c45f228dacb9a552ad8dd23706c371db/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/c45f228dacb9a552ad8dd23706c371db/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/c45f228dacb9a552ad8dd23706c371db/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
+permission#com.example.cometchatandroidsample.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/c45f228dacb9a552ad8dd23706c371db/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/c45f228dacb9a552ad8dd23706c371db/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/c45f228dacb9a552ad8dd23706c371db/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/c45f228dacb9a552ad8dd23706c371db/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/c45f228dacb9a552ad8dd23706c371db/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
+uses-permission#com.example.cometchatandroidsample.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/c45f228dacb9a552ad8dd23706c371db/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/c45f228dacb9a552ad8dd23706c371db/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/42035122c9240cf24c799f79a0fc4c28/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/42035122c9240cf24c799f79a0fc4c28/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/42035122c9240cf24c799f79a0fc4c28/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
+ADDED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/33b139b14167ea4d25cc869bb2bdc3ad/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
+	android:value
+		ADDED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/33b139b14167ea4d25cc869bb2bdc3ad/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/33b139b14167ea4d25cc869bb2bdc3ad/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/ca661085db5393391a57c267f5f232d1/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/0a1e436fc955efc923cd7c1aa90854b8/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/0a1e436fc955efc923cd7c1aa90854b8/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/ca661085db5393391a57c267f5f232d1/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/ca661085db5393391a57c267f5f232d1/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/ca661085db5393391a57c267f5f232d1/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/ca661085db5393391a57c267f5f232d1/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/ca661085db5393391a57c267f5f232d1/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/0a1e436fc955efc923cd7c1aa90854b8/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/0a1e436fc955efc923cd7c1aa90854b8/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/0a1e436fc955efc923cd7c1aa90854b8/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/0a1e436fc955efc923cd7c1aa90854b8/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/0a1e436fc955efc923cd7c1aa90854b8/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/0a1e436fc955efc923cd7c1aa90854b8/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/0a1e436fc955efc923cd7c1aa90854b8/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/2d70be6b9cce38bfe7229a208c9dc54a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/2d70be6b9cce38bfe7229a208c9dc54a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/2d70be6b9cce38bfe7229a208c9dc54a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/2d70be6b9cce38bfe7229a208c9dc54a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/2d70be6b9cce38bfe7229a208c9dc54a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/2d70be6b9cce38bfe7229a208c9dc54a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/2d70be6b9cce38bfe7229a208c9dc54a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/2d70be6b9cce38bfe7229a208c9dc54a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/2d70be6b9cce38bfe7229a208c9dc54a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/2d70be6b9cce38bfe7229a208c9dc54a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/2d70be6b9cce38bfe7229a208c9dc54a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/2d70be6b9cce38bfe7229a208c9dc54a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/2d70be6b9cce38bfe7229a208c9dc54a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/2d70be6b9cce38bfe7229a208c9dc54a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/2d70be6b9cce38bfe7229a208c9dc54a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/2d70be6b9cce38bfe7229a208c9dc54a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/2d70be6b9cce38bfe7229a208c9dc54a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/2d70be6b9cce38bfe7229a208c9dc54a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/2d70be6b9cce38bfe7229a208c9dc54a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/2d70be6b9cce38bfe7229a208c9dc54a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/jagdishgodse/Desktop/EcoChatApp/caches/8.9/transforms/2d70be6b9cce38bfe7229a208c9dc54a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
