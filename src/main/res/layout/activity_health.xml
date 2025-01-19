@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEBEE"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!-- Daily Health Tip -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFC1E3"
+            android:padding="16dp" >
+
+            <TextView
+                android:id="@+id/tv_health_tip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#880D4B"
+                android:textStyle="bold"
+                android:text="Your daily health tip will appear here."
+                android:textSize="16sp"
+                android:paddingBottom="8dp" />
+
+            <Button
+                android:id="@+id/btn_share_tip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#9C27B0"
+                android:text="Share Tip"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <!-- Medical History -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Medical History"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#880D4B"
+            android:paddingBottom="8dp" />
+
+        <ListView
+            android:id="@+id/lv_medical_history"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="#E91E63"
+            android:dividerHeight="1dp" />
+
+        <Button
+            android:id="@+id/btn_add_medical_record"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#9C27B0"
+            android:text="Add Record"
+            android:textColor="#FFFFFF" />
+
+        <!-- Emergency Contact -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Emergency Contact"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#880D4B"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="#FFC1E3"
+            android:padding="12dp">
+
+            <TextView
+                android:id="@+id/tv_emergency_contact"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Dr Anita 9011190114"
+                android:textColor="#880D4B"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btn_call_contact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#9C27B0"
+                android:text="Call"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <!-- Water Tracker -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Water Tracker"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#880D4B"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btn_add_water"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#9C27B0"
+                android:text="+ Glass"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/tv_water_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="0/8 glasses"
+                android:textSize="16sp"
+                android:textColor="#880D4B" />
+        </LinearLayout>
+
+        <!-- Periods Tracker -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Periods Tracker"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#880D4B"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFC1E3"
+            android:padding="16dp" >
+
+            <Button
+                android:id="@+id/btn_log_period"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#9C27B0"
+                android:text="Log Periods"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/tv_period_prediction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:text="Next period: Not logged"
+                android:textSize="16sp"
+                android:textColor="#880D4B" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="30dp"
+    android:layout_gravity="center"
+    app:cardCornerRadius="30dp"
+    app:cardElevation="20dp"
+    app:cardBackgroundColor="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center"
+        android:background="@color/white">
+
+        <!-- Sign Up Title -->
+
+        <!-- Username Input Field -->
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:text="Empowering women,One app at a Time"
+            android:textColor="@color/pink_200"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:hint="Enter Username"
+            app:boxBackgroundMode="filled"
+            app:boxStrokeColor="@color/Lavender"
+            android:backgroundTint="@color/white">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/userId1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/pink_200"
+                android:drawablePadding="12dp"
+                android:padding="16dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/Lavender"
+                android:textSize="16sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Name Input Field -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:hint="Enter Name"
+            app:boxBackgroundMode="filled"
+            app:boxStrokeColor="@color/Lavender"
+            android:backgroundTint="@color/white">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/nameInput1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/pink_200"
+                android:drawablePadding="12dp"
+                android:padding="16dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/Lavender"
+                android:textSize="16sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Email Input Field -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:hint="Enter Email ID"
+            app:boxBackgroundMode="filled"
+            app:boxStrokeColor="@color/Lavender"
+            android:backgroundTint="@color/white">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/emailInput1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/pink_200"
+                android:drawablePadding="12dp"
+                android:padding="16dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/Lavender"
+                android:textSize="16sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Password Input Field -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:hint="Enter Password"
+            app:boxBackgroundMode="filled"
+            app:boxStrokeColor="@color/Lavender"
+            android:backgroundTint="@color/white">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/passwordInput1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/pink_200"
+                android:drawablePadding="12dp"
+                android:inputType="textPassword"
+                android:padding="16dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="16sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Sign Up Button -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/signup_button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/pink_200"
+            android:padding="16dp"
+            android:text="Sign Up"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:elevation="2dp" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

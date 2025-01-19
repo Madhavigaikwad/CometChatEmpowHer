@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FCE4EC">
+
+    <!-- Logo Image -->
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@mipmap/ic_launcher_round" />
+
+    <!-- App Title/Header -->
+    <TextView
+        android:id="@+id/appTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Women's Health and Safety"
+        android:textSize="24sp"
+        android:textColor="#D81B60"
+        android:layout_gravity="center"
+        android:layout_marginBottom="40dp" />
+
+    <!-- GridLayout for sections (Health, Security, Education, Chat) -->
+    <GridLayout
+        android:layout_width="378dp"
+        android:layout_height="408dp"
+        android:layout_weight="1"
+        android:columnCount="2"
+        android:orientation="horizontal"
+        android:rowCount="2"
+        android:spacing="16dp">
+
+        <Button
+            android:id="@+id/btn_health"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Health" />
+
+        <Button
+            android:id="@+id/btn_security"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Security" />
+
+        <Button
+            android:id="@+id/btn_education"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Education" />
+
+        <Button
+            android:id="@+id/btn_chat"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:text="Chat" />
+
+    </GridLayout>
+
+    <!-- Footer with copyright or app description -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="© 2025 Women's Health and Safety App"
+        android:textColor="#D81B60"
+        android:textSize="14sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp" />
+</LinearLayout>
