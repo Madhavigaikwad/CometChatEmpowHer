@@ -87,9 +87,3 @@ Watch our demo video to explore the features and user experience of EmpowHer:
 ## 🤝 **Contributing**  
 
 I welcome contributions to improve **EmpowHer**! Submit a pull request or report an issue in the repository.  
-
-
-## 📄 **License**  
-
-This project is licensed under the MIT License. See the LICENSE file for details.  
-
